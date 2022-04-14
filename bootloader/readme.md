@@ -5,7 +5,7 @@ To run this on qemu:
 qemu-system-x86_64 <file_name>.bin
 
 
-Important points!     
+Important!     
 
 -mov al, [bx]  //This means that the contents of the ADDRESS LOCATED INSIDE BX will be loaded into al. 
                 For an example, if bx = 0x8000, the contents of 0x8000 will be loaded into al.
